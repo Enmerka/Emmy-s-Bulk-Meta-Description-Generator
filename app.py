@@ -13,7 +13,7 @@ import nltk
 nltk.download('punkt')
 
 # App title
-st.title("Meta Description Extractor")
+st.title("Bulk Meta Description Generator")
 
 # Instructions for the user
 st.markdown("""
