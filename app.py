@@ -20,7 +20,7 @@ st.markdown("""
 ### Instructions:
 1. **Option 1**: Paste a list of URLs (one per line) in the text area below.
 2. **Option 2**: Upload a CSV file containing a column named `Address` with the URLs.
-3. Click the **Extract Meta Descriptions** button to generate meta descriptions for the URLs.
+3. Click the **Generate Meta Descriptions** button to generate meta descriptions for the URLs.
 """)
 
 # Input: Paste URLs or upload a CSV file
@@ -44,7 +44,7 @@ else:
             st.error("The uploaded CSV file must contain a column named 'Address'.")
 
 # Button to extract meta descriptions
-if st.button("Extract Meta Descriptions") and urls:
+if st.button("Generate Meta Descriptions") and urls:
     results = []
 
     # Iterate over URLs
